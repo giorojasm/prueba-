@@ -1,0 +1,73 @@
+body{
+margin:0;
+
+}
+header{
+background:url(mecanismo.jfif)no-repeat;
+background-size:cover;
+height:250px;
+overflow:hidden;
+}
+h1{
+color:#fff;
+text-align:center;
+font-family:´bangers´,cursive;
+font-size:80px;
+text-shadow:5px 3px 8px #785;
+}
+nav{
+background-color:#98d;
+height:40px;
+overflow:hidden;
+}
+#menu{
+	margin:0 auto;
+	width:1000px;
+	overflow:hidden;
+	background-color:#98d;
+}
+li{
+	float:left;
+	width:100px;
+	list-style:none;
+	text-align:center;
+}
+li:hover {
+	background-color:#96d;
+	border-radius:8px;
+}
+/* Estilos CSS para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para el contenido del footer */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para los botones de redes sociales */
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Estilos para los enlaces en el footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para los enlaces en el hover */
+footer a:hover {
+    text-decoration: underline;
+}
